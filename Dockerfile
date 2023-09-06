@@ -4,7 +4,7 @@
 # PLEASE DO NOT EDIT IT DIRECTLY.
 #
 
-FROM debian:bookworm
+FROM debian:bullseye
 
 RUN set -eux; \
 	apt-get update; \
